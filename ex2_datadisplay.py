@@ -6,7 +6,7 @@ import pandas as pd
 sheet_url = "https://docs.google.com/spreadsheets/d/1Fx7f6rM5Ce331F9ipsEMn-xRjUKYiR3R_v9IDBusUUY/edit#gid=182521220"
 url_1 = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
 df = pd.read_csv(url_1)
-
+print df
 
 ## view dataframe 
 
